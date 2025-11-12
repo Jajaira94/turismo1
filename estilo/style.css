@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* HEADER GENERAL PARA TODAS LAS PÁGINAS */
+header {
+    background: linear-gradient(90deg, #1b472c, #20644d, #0bb12f);
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+/* NAV */
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #fbbf24;
+}
+
+/* CONTENIDO GENERAL */
+main {
+    padding: 2rem 0;
+}
+
+/* TEXTOS CENTRADOS */
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+/* FOOTER GENERAL  */
+footer {
+    background-color: #0b1120;
+    color: #e5e7eb;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.25rem 0;
+}
+
+footer a {
+    color: #fbbf24;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste del botón del header en index.html (modal) */
+header .btn {
+    font-size: 0.9rem;
+}
